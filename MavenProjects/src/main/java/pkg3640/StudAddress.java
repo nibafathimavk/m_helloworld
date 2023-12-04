@@ -12,7 +12,7 @@ public class StudAddress {
      s.details();
      Scanner scn=new Scanner(System.in);
 		System.out.println("Enter the address");
-		 addr=scn.next();
+		 addr=scn.nextLine();
 		System.out.println(s.name);
 		System.out.println(s.rolno);
 		System.out.println(addr);
